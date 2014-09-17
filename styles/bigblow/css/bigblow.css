@@ -17,6 +17,7 @@
 /* Version: 20140605.0925 */
 
 html, body {
+    background-color: #333333;
     border: 0;
     margin: 0;
     padding: 0;
@@ -85,9 +86,10 @@ html, body {
 
 #content {
     clear: both;
-    background-color: #FFFFFF;
+    background-color: #c8c8c8;
     font-size: 100%;
     margin: 0 auto;
+    margin-top: 1%;
     max-width: 810px;
     overflow-x: hidden;
     overflow-y: auto;
@@ -145,7 +147,7 @@ h3, h4, h5, h6 {
 }
 
 h3 {
-    border-bottom: 1px solid #B5DAF1;
+    border-bottom: 1px solid #ffffff;
     font-size: 16px;
     margin-left: 25px;
 }
@@ -305,21 +307,21 @@ table {
 
 table, th, td
 {
-    border: 1px solid #B5DAF1;
-    border-left: 2px solid white;
-    border-right: 2px solid white;
+    border: 1px solid #ffffff;
+    border-left: 2px solid #c8c8c8;
+    border-right: 2px solid #c8c8c8;
 }
 
 th
 {
     border-width: 1px 2px;
-    border-color: white;
+    border-color: #c8c8c8;
     background-color: #2061A2;
     color: white;
 }
 
 caption {
-    color: #8D8D84;
+    color: #c80000;
 }
 
 img {
