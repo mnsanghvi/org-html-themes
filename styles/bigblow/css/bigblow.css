@@ -16,6 +16,9 @@
 /* URL: https://github.com/fniessen/org-html-themes/ */
 /* Version: 20140605.0925 */
 
+
+@import url(../fonts/fonts.css);
+
 html, body {
     background-color: #333333;
     border: 0;
@@ -97,9 +100,9 @@ html, body {
 }
 
 #postamble {
-    color: #999999;
+    color: #dddddd;
     font-family: Arial,Helvetica,sans-serif;
-    font-size: 70%;
+    font-size: 90%;
     height: 40px;
     margin: 0 auto;
     max-width: 810px;
@@ -107,6 +110,11 @@ html, body {
     padding-top: 22px;
     padding: 2px 2px 0 6px;
     text-align: right;
+}
+
+#postamble a, a:link, a:visited {
+    color: #00ffff;
+    text-decoration: none;
 }
 
 body {
