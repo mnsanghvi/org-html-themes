@@ -758,10 +758,14 @@ p.verse {
     top: 5px;
     font-size: 0.9em;
     text-decoration:underline;
+    background-color: #d8d8cc;
+    color: #ffffff;
 }
 
 .copy-to-clipboard-button:hover {
     cursor: pointer;
+    background-color: #d8d8cc;
+    color: #ffffff;
 }
 
 /* This is for the sake of Emacs. */
